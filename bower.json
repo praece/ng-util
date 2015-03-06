@@ -1,14 +1,13 @@
 {
-  "name": "praece-ng-forms",
+  "name": "praece-ng-util",
   "version": "1.0.0",
-  "homepage": "https://github.com/praece/ng-forms",
+  "homepage": "https://github.com/praece/ng-util",
   "authors": [
     "Praece"
   ],
-  "description": "A form toolkit for use in Praece angular projects",
+  "description": "A general toolkit for use in Praece angular projects",
   "main": [
-    "dist/praece-ng-forms.js",
-    "dist/praece-ng-forms.css"
+    "dist/praece-ng-util.js"
   ],
   "moduleType": [
     "globals"
