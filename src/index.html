@@ -1,0 +1,27 @@
+<!doctype html>
+<html class="no-js" ng-app="demo">
+  <head>
+    <meta charset="utf-8">
+    <title>Praece ngUtil</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body>
+
+    <div ng-controller="demoCtrl as demo">
+      <div ng-click="demo.clickOutside()">
+        <button pr-stop-propagation ng-click="demo.clickInside()">Click Me!</button>
+      </div>
+    </div>
+
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/angular/angular.js"></script>
+    <script src="app.js"></script>
+
+    <!-- build:js praece-ng-util.js -->
+    <script src="module.js"></script>
+    <script src="directives/events.js"></script>
+    <!-- endbuild -->
+
+  </body>
+</html>
