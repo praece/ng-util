@@ -1,21 +1,21 @@
 {
-  "name": "ng-forms",
+  "name": "ng-util",
   "version": "1.0.0",
-  "description": "Forms toolkit for use in Praece Angular projects",
+  "description": "General toolkit for use in Praece Angular projects",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/praece/ng-forms.git"
+    "url": "https://github.com/praece/ng-util.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/praece/ng-forms/issues"
+    "url": "https://github.com/praece/ng-util/issues"
   },
-  "homepage": "https://github.com/praece/ng-forms",
+  "homepage": "https://github.com/praece/ng-util",
   "dependencies": {
     "browser-sync": "^2.0.1",
     "gulp": "^3.8.11",
