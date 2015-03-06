@@ -15,3 +15,23 @@ function() {
     }
   };
 }]);
+
+angular.module('pr.util').directive('prShiftClick', [
+
+function() {
+  return {
+    restrict: 'A',
+    scope: {
+      shiftClick: '&prShiftClick'
+    },
+    link: function(scope, element, attrs) {
+      element.on('click', function(event){
+        if (event.shiftKey) {
+          scope.shiftClick();
+        }
+
+        return true;
+      });
+    }
+  };
+}]);

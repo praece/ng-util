@@ -9,10 +9,14 @@ function($timeout) {
   var demo = this;
 
   demo.clickInside = function() {
-    console.log("clicked inside!");
+    console.log('clicked inside!');
   };
 
   demo.clickOutside = function() {
-  	console.log("clicked outside!");
+  	console.log('clicked outside!');
+  };
+
+  demo.shiftClick = function(message) {
+  	console.log(message);
   };
 }]);
