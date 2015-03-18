@@ -12,17 +12,25 @@
       <div ng-click="demo.clickOutside()">
         <button pr-stop-propagation ng-click="demo.clickInside()">Click Me!</button>
       </div>
-
+      <br>
       <button pr-shift-click="demo.shiftClick('shift clicked!')">Shift + Click Me!</button>
+      <br>
+      <br><strong>Pluralize</strong>
+      <br>{{demo.nonPluralText | prPluralize}}
+      <br>0 {{demo.nonPluralText | prPluralize:0}}
+      <br>1 {{demo.nonPluralText | prPluralize:1}}
+      <br>2 {{demo.nonPluralText | prPluralize:2}}
     </div>
 
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/angular/angular.js"></script>
+    <script src="/bower_components/pluralize/pluralize.js"></script>
     <script src="app.js"></script>
 
     <!-- build:js praece-ng-util.js -->
     <script src="module.js"></script>
     <script src="directives/events.js"></script>
+    <script src="filters/pluralize.js"></script>
     <!-- endbuild -->
 
   </body>

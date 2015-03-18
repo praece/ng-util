@@ -35,7 +35,7 @@ gulp.task('serve', ['styles', 'browser-sync'], function () {
 
 gulp.task('sass', function() {
   return gulp.src('src/styles/forms.scss')
-    .pipe(rename('praece-ng-forms.scss'))
+    .pipe(rename('praece-ng-util.scss'))
     .pipe(gulp.dest('dist'));
 });
 

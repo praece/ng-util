@@ -8,6 +8,8 @@ demo.controller('demoCtrl', [
 function($timeout) {
   var demo = this;
 
+  demo.nonPluralText = 'test';
+
   demo.clickInside = function() {
     console.log('clicked inside!');
   };
